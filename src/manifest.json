@@ -1,7 +1,7 @@
 {
-    "name": "Slack App-in-Tab Reborn",
-    "description": "Open the Slack app with its multi-workspace sidebar in a simple browser tab",
-    "version": "2026.3.3",
+    "name": "Slack App-in-Tab + Shortcuts",
+    "description": "Personal fork of Slack App-in-Tab Reborn, adding Ctrl+1-9 keyboard shortcuts to switch workspaces directly.",
+    "version": "2026.4.17",
     "manifest_version": 2,
     "icons": {
         "48": "slack-app-in-tab-logo-48x48.png",
@@ -17,7 +17,7 @@
     "permissions": ["activeTab", "tabs", "https://*.slack.com/*"],
     "browser_specific_settings": {
         "gecko": {
-            "id": "{ea2fdc31-184c-4533-aaf3-61fc2e70411b}",
+            "id": "{c2368c82-d42c-4e92-a32c-83699bf93975}",
             "data_collection_permissions": {
                 "required": ["none"]
             }
