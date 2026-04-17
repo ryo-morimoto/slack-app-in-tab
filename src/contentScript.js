@@ -17,7 +17,15 @@ document.addEventListener(
         if (!target) return;
         e.preventDefault();
         e.stopPropagation();
-        target.click();
+
+        const propsKey = Object.keys(target).find((k) => k.startsWith("__reactProps$"));
+        const props = propsKey ? target[propsKey] : null;
+        const teamId = target.getAttribute("data-team");
+        if (props && teamId && typeof props.onClick === "function") {
+            props.onClick(teamId);
+        } else {
+            target.click();
+        }
     },
     true,
 );
