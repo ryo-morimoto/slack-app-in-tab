@@ -1,5 +1,11 @@
 # Slack App-in-Tab Reborn extension
 
+> [!WARNING]  
+> **Experimental personal fork.** This repository is a personal-use fork that adds `Ctrl+1-9` shortcuts to switch
+> workspaces directly. It is not maintained for public consumption — for the actively-maintained upstream, use
+> [@axeleroy](https://github.com/axeleroy)'s [Slack App-in-Tab Reborn](https://github.com/axeleroy/slack-app-in-tab)
+> instead.
+
 A Firefox extension to open the Slack app with its multi-workspace sidebar in a simple browser tab, freeing you to use
 the Slack app.
 
@@ -21,6 +27,7 @@ Under the hood, "_Slack App-in-Tab_" is a 10 LOCs long extension.
 It changes your browser's User Agent String to the one used in Chrome OS, when you visit app.slack.com.
 Slack always runs in _app mode_ on that platform. _Tada!_
 
-# Original Author
+# Original Authors
 
-[@louisremi](https://twitter.com/louis_remi)
+- [@louisremi](https://twitter.com/louis_remi) — original [Slack App-in-Tab](https://github.com/louisremi/slack-app-in-tab)
+- [@axeleroy](https://github.com/axeleroy) — [Slack App-in-Tab Reborn](https://github.com/axeleroy/slack-app-in-tab) (fork source of this repository)
